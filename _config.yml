@@ -1,9 +1,10 @@
-name: ""
-description: ""
+name: "Javier Asensio"
+description: "la leche"
 
-url: "[YOUR DOMAIN]"
+url: "http://asensiomontiel.es"
 
 paginate: 10
+
 
 markdown: rdiscount
 permalink: pretty
