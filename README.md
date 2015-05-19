@@ -1,4 +1,0 @@
-JoseJavier
-==========
-
-Personal web page
