@@ -1,40 +1,61 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>{{ site.name }}</title>
     <meta charset="utf-8">
     <meta name="description" content="{{ site.description }}">
     <!-- para el zoom y renderizado-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+	<!-- Semantic UI -->	
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="semantic/dist/semantic.min.js"></script>
+ </head>
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#"><img src="images/foto_perfil.jpg" class="img-rounded" height="100"></img></a>
-      <a class="navbar-brand" href="#">{{ site.name }}</a>
+   <div class="ui grid">
+        <div class="computer tablet only row">
+            <div class="ui inverted fixed menu navbar page grid">
+                <a href="" class="brand item">Project Name</a>
+                <a href="" class="active item">Home</a>
+                <a href="" class="item">About</a>
+                <a href="" class="item">Contact</a>
+                
+                <div class="right menu">
+                    <a href="" class="active item">Default</a>
+                    <a href="" class="item">Static top</a>
+                    <a href="" class="item">Fixed top</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile only row">
+            <div class="ui fixed inverted navbar menu">
+                <a href="" class="brand item">Project Name</a>
+                <div class="right menu open">
+                    <a href="" class="menu item">
+                        <i class="reorder icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ui vertical navbar menu">
+                <a href="" class="active item">Home</a>
+                <a href="" class="item">About</a>
+                <a href="" class="item">Contact</a>
+                <div class="ui item">
+                    <div class="text">Dropdown</div>
+                    <div class="menu">
+                        <a class="item">Action</a>
+                        <a class="item">Another action</a>
+                        <a class="item">Something else here</a>
+                        <a class="ui aider"></a>
+                        <a class="item">Seperated link</a>
+                        <a class="item">One more seperated link</a>
+                      </div>
+                </div>
+                <div class="menu">
+                    <a href="" class="active item">Default</a>
+                    <a href="" class="item">Static top</a>
+                    <a href="" class="item">Fixed top</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li> 
-        <li><a href="#">Page 3</a></li> 
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 <div class="container">

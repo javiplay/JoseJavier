@@ -1,7 +1,9 @@
-name: "Jose Javier Asensio Montiel"
-description: "(Introducit aquí una descrición del sitio web)"
+encoding: utf-8
 
-url: "http://josejavier.asensiomontiel.es"
+name: "Javier Asensio"
+description: "Sitio web personal de Javier Asensio"
+
+url: "http://asensiomontiel.es"
 
 paginate: 10
 
